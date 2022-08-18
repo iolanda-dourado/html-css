@@ -1,0 +1,142 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Bebas';
+    src: url(fontes/Bebas-Regular.otf);
+}
+
+@font-face {
+    font-family: 'Black Ravens';
+    src: url(fontes/black-ravens.otf);
+}
+
+* { 
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: #3f4283;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: justify;
+}
+body .jogos, h2 {
+    text-align: center;
+    font-family: 'Bebas', sans-serif;
+    font-weight: normal;
+    font-size: 1.8em;
+    color: white;
+    text-shadow: 1.5px 1.5px 2px rgba(0, 0, 0, 0.322);
+    padding: 6px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+    background-image: linear-gradient(to right, #3f4283,  transparent);
+}
+
+body h3 {
+    text-align: center;
+}
+
+body p {
+    text-indent: 20px;
+    line-height: 2em;
+}
+
+header {
+    background-image: url(imagens/videogame.jpg);
+    background-size: auto;
+    text-align: center;
+    color: white;
+    height: 180px;
+}
+
+header > h1 {
+    padding: 25px;
+    font-family: 'Black Ravens';
+    font-size: 6em;
+    color: white;
+    text-shadow: 3px 3px 7px #8f23aa;
+
+}
+
+nav {
+    text-align: center;
+    font-family: 'Bebas';
+    font-size: 1.6em;
+    padding: 30px;
+    background-image: linear-gradient(to bottom, #15162a, transparent);
+    word-spacing: 30px;
+    
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    text-shadow: 2px 2px 1px black;
+    border-radius: 3px;
+    transition-duration: .5s;
+}
+
+nav a:hover {
+    background-color: #cf2df831;
+    padding: 7px;
+}
+
+main {
+    background-color: #f9f9ffd0;
+    padding: 20px;
+    margin: auto;
+    border-radius: 0px 0px 10px 10px;
+    min-width: 400px;
+    max-width: 900px;
+}
+
+img {
+    width: 70%;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    padding-bottom: 50px;
+}
+
+aside {
+    background-color: #3f4283;
+    border-radius: 10px;
+    color: white;
+    text-shadow: 1px 1px 3px black;
+}
+
+aside h3 {
+    padding: 5px;
+    font-weight: normal;
+    font-size: 25px;
+    font-family: 'Black Ravens';
+    font-size: 2.9em;
+    background-color: #d942ff33;
+    border-radius: 10px 10px 0px 0px;
+    height: 60px;
+}
+
+aside p {
+    padding: 15px;
+    margin: 10px;
+}
+
+aside > ol {
+    list-style-position: inside;
+    columns: 2;
+    padding: 20px;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-image: url(imagens/videogame.jpg);
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    color: white;
+    text-shadow: 2px 2px 3px #8f23aa;
+    font-size: 0.9em;
+}
