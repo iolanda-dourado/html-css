@@ -4,35 +4,42 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cosmo</title>
+    <title>Cosmos</title>
     <style>
-*{
-    margin: 0px;
+* {
     padding: 0px;
+    margin: 0px;
 }
-    .cosmo{
-        height: 100vh;
-        background: blue url('espaco.jpg') center no-repeat fixed;
-        background-size: cover;
-        background-position: relative;
-    }
+        #container {
+            background-image: url('imagens/espaco.jpg');
+            background-color: blue;
+            background-size: cover;
+            background-position: center center;
+            position: relative;
+            height: 100vh;
+        }
 
-    .astronauta {
-        width: 470px;
-        height: 60vh;
-        background-image: url('astronauta.png');
-        background-repeat: no-repeat;
-        position: absolute;
-        left: 50%;
-        top: 50%;
+        #conteudo {
+            background-image: url('imagens/astronauta.png');
+            position: absolute;
+            background-repeat: no-repeat;
+            background-position: center center;
+            background-size: contain;
+            height: 50%;
+            width: 50%;
 
-        transform: translate(-50%, -50%);
-    }
+            left: 50%;
+            top: 50%;
+
+            transform: translate(-50%, -50%);
+        }
     </style>
 </head>
 <body>
-    <div class="cosmo">
-        <div class="astronauta"></div>
-    </div>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
 </body>
 </html>
